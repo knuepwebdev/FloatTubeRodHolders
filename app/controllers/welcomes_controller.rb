@@ -1,7 +1,5 @@
-module Spree
-	class WelcomesController < Spree::StoreController
-		def index
-			render 'spree/welcomes/index'
-		end
+class WelcomesController < Spree::StoreController
+	def index
+		render 'spree/welcomes/index'
 	end
 end
