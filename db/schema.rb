@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140124011909) do
+ActiveRecord::Schema.define(version: 20140128002532) do
+
+  create_table "inquiries", force: true do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.string "email"
+    t.string "phone"
+    t.string "comments"
+  end
 
   create_table "spree_activators", force: true do |t|
     t.string   "description"
@@ -139,6 +147,20 @@ ActiveRecord::Schema.define(version: 20140124011909) do
     t.boolean  "test_mode",   default: true
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "spree_inquiries", force: true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "inquiry_type"
+    t.string   "order_no"
+    t.text     "message"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "phone_number"
+    t.string   "http_user_agent"
+    t.string   "http_remote_addr"
+    t.string   "client_viewport_size"
   end
 
   create_table "spree_inventory_units", force: true do |t|
