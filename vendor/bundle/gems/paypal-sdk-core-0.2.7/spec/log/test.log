@@ -1,0 +1,670 @@
+# Logfile created on 2013-03-08 07:52:49 +0530 by logger.rb/31641
+I, [2013-03-08T07:52:50.079164 #9737]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-08T07:52:52.485744 #9737]  INFO -- : Response[200]: OK, Duration: 2.406s
+I, [2013-03-08T07:52:52.487185 #9737]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-08T07:52:54.436526 #9737]  INFO -- : Response[200]: OK, Duration: 1.949s
+I, [2013-03-08T07:52:54.442946 #9737]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-08T07:52:56.375728 #9737]  INFO -- : Response[200]: OK, Duration: 1.933s
+I, [2013-03-08T07:52:56.376710 #9737]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-08T07:52:58.322945 #9737]  INFO -- : Response[200]: OK, Duration: 1.946s
+I, [2013-03-08T07:52:58.328012 #9737]  INFO -- : Action: TransactionSearch
+I, [2013-03-08T07:52:58.328289 #9737]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:01.305796 #9737]  INFO -- : Response[200]: OK, Duration: 2.977s
+I, [2013-03-08T07:53:01.317115 #9737]  INFO -- : Action: MassPay
+I, [2013-03-08T07:53:01.317254 #9737]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:04.345772 #9737]  INFO -- : Response[200]: OK, Duration: 3.028s
+I, [2013-03-08T07:53:04.357505 #9737]  INFO -- : Action: TransactionSearch
+I, [2013-03-08T07:53:04.357677 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:06.818443 #9737]  INFO -- : Response[200]: OK, Duration: 2.461s
+I, [2013-03-08T07:53:06.858486 #9737]  INFO -- : Action: TransactionSearch
+I, [2013-03-08T07:53:06.858656 #9737]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:09.401623 #9737]  INFO -- : Response[200]: OK, Duration: 2.543s
+I, [2013-03-08T07:53:09.449654 #9737]  INFO -- : Action: TransactionSearch
+I, [2013-03-08T07:53:09.449886 #9737]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:10.848154 #9737]  INFO -- : Response[200]: OK, Duration: 1.398s
+I, [2013-03-08T07:53:10.860289 #9737]  INFO -- : Action: TransactionSearch
+I, [2013-03-08T07:53:10.860464 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:12.571956 #9737]  INFO -- : Response[200]: OK, Duration: 1.711s
+I, [2013-03-08T07:53:12.583993 #9737]  INFO -- : Action: InvalidAction
+I, [2013-03-08T07:53:12.584210 #9737]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:14.145357 #9737]  INFO -- : Response[500]: Internal Server Error, Duration: 1.561s
+I, [2013-03-08T07:53:14.148306 #9737]  INFO -- : Action: TransactionSearch
+I, [2013-03-08T07:53:14.148566 #9737]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-08T07:53:16.145030 #9737]  INFO -- : Response[200]: OK, Duration: 1.996s
+I, [2013-03-08T07:53:16.173536 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-08T07:53:18.069890 #9737]  INFO -- : Response[200]: OK, Duration: 1.896s
+I, [2013-03-08T07:53:18.071984 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-08T07:53:19.758771 #9737]  INFO -- : Response[200]: OK, Duration: 1.687s
+I, [2013-03-08T07:53:19.761186 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-08T07:53:21.460096 #9737]  INFO -- : Response[200]: OK, Duration: 1.699s
+I, [2013-03-08T07:53:21.462659 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-08T07:53:24.309568 #9737]  INFO -- : Response[200]: OK, Duration: 2.847s
+I, [2013-03-08T07:53:24.311946 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-08T07:53:26.613164 #9737]  INFO -- : Response[200]: OK, Duration: 2.301s
+I, [2013-03-08T07:53:26.616356 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-08T07:53:27.997195 #9737]  INFO -- : Response[200]: OK, Duration: 1.381s
+I, [2013-03-08T07:53:27.999072 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-08T07:53:29.309455 #9737]  INFO -- : Response[200]: OK, Duration: 1.310s
+I, [2013-03-08T07:53:29.311031 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-08T07:53:30.612044 #9737]  INFO -- : Response[500]: Internal Server Error, Duration: 1.301s
+I, [2013-03-08T07:53:30.614280 #9737]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-08T07:53:32.179655 #9737]  INFO -- : Response[200]: OK, Duration: 1.565s
+I, [2013-03-08T07:53:32.186252 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-08T07:53:33.728815 #9737]  INFO -- : Response[401]: Unauthorized, Duration: 1.542s
+I, [2013-03-08T07:53:33.729960 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-08T07:53:36.206071 #9737]  INFO -- : Response[200]: OK, Duration: 2.476s
+I, [2013-03-08T07:53:36.207622 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-08T07:53:42.367683 #9737]  INFO -- : Response[201]: Created, Duration: 6.160s
+I, [2013-03-08T07:53:42.369146 #9737]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment?count=10
+I, [2013-03-08T07:53:55.074452 #9737]  INFO -- : Response[200]: OK, Duration: 12.705s
+I, [2013-03-08T07:53:55.078504 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-08T07:53:58.319710 #9737]  INFO -- : Response[200]: OK, Duration: 3.241s
+I, [2013-03-08T07:53:58.320202 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/vault/credit-card
+I, [2013-03-08T07:54:00.034701 #9737]  INFO -- : Response[201]: Created, Duration: 1.714s
+I, [2013-03-08T07:54:00.035591 #9737]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-6NK65098VW125271GKE4UXPY
+I, [2013-03-08T07:54:01.648611 #9737]  INFO -- : Response[200]: OK, Duration: 1.613s
+I, [2013-03-08T07:54:01.650357 #9737]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment/PAY-1234
+I, [2013-03-08T07:54:02.829518 #9737]  INFO -- : Response[404]: Not Found, Duration: 1.179s
+I, [2013-03-08T07:54:02.830945 #9737]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-08T07:54:04.271779 #9737]  INFO -- : Response[400]: Bad Request, Duration: 1.441s
+W, [2013-03-22T14:13:33.756213 #23092]  WARN -- : undefined method `notExist=' for #<TestType:0x9a42af0>
+W, [2013-03-22T14:14:48.142271 #23097]  WARN -- : undefined method `notExist=' for #<TestType:0x9c48ebc>
+W, [2013-03-22T14:15:06.042688 #23099]  WARN -- : undefined method `notExist=' for #<TestType:0x8be6dbc>
+W, [2013-03-22T14:16:28.590391 #23102]  WARN -- : undefined method `notExist=' for #<TestType:0x92ceda0>
+W, [2013-03-22T14:17:01.028527 #23106]  WARN -- : undefined method `notExist=' for #<TestType:0x8572d50>
+W, [2013-03-22T14:19:13.913125 #23135]  WARN -- : undefined method `notExist=' for #<TestType:0x8cca904>
+I, [2013-03-22T14:19:13.923739 #23135]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T14:19:16.180462 #23135]  INFO -- : Response[200]: OK, Duration: 2.257s
+I, [2013-03-22T14:19:16.181699 #23135]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T14:19:18.104469 #23135]  INFO -- : Response[200]: OK, Duration: 1.923s
+I, [2013-03-22T14:19:18.124039 #23135]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T14:19:20.018245 #23135]  INFO -- : Response[200]: OK, Duration: 1.894s
+I, [2013-03-22T14:19:20.019206 #23135]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T14:19:21.958105 #23135]  INFO -- : Response[200]: OK, Duration: 1.939s
+I, [2013-03-22T14:19:21.964922 #23135]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T14:19:21.965172 #23135]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:26.265904 #23135]  INFO -- : Response[200]: OK, Duration: 4.301s
+I, [2013-03-22T14:19:26.276395 #23135]  INFO -- : Action: MassPay
+I, [2013-03-22T14:19:26.276528 #23135]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:29.275364 #23135]  INFO -- : Response[200]: OK, Duration: 2.999s
+I, [2013-03-22T14:19:29.289288 #23135]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T14:19:29.289443 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:31.912337 #23135]  INFO -- : Response[200]: OK, Duration: 2.623s
+I, [2013-03-22T14:19:31.993696 #23135]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T14:19:31.993958 #23135]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:34.725840 #23135]  INFO -- : Response[200]: OK, Duration: 2.732s
+I, [2013-03-22T14:19:34.759688 #23135]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T14:19:34.759839 #23135]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:36.861896 #23135]  INFO -- : Response[200]: OK, Duration: 2.102s
+I, [2013-03-22T14:19:36.874305 #23135]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T14:19:36.874537 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:39.034141 #23135]  INFO -- : Response[200]: OK, Duration: 2.159s
+I, [2013-03-22T14:19:39.046111 #23135]  INFO -- : Action: InvalidAction
+I, [2013-03-22T14:19:39.046302 #23135]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:40.630255 #23135]  INFO -- : Response[500]: Internal Server Error, Duration: 1.584s
+I, [2013-03-22T14:19:40.633608 #23135]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T14:19:40.633762 #23135]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T14:19:42.578734 #23135]  INFO -- : Response[200]: OK, Duration: 1.945s
+I, [2013-03-22T14:19:42.685116 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:19:44.827156 #23135]  INFO -- : Response[200]: OK, Duration: 2.142s
+I, [2013-03-22T14:19:44.830087 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:19:46.397052 #23135]  INFO -- : Response[200]: OK, Duration: 1.567s
+I, [2013-03-22T14:19:46.400346 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:19:48.031446 #23135]  INFO -- : Response[200]: OK, Duration: 1.631s
+I, [2013-03-22T14:19:48.034939 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T14:19:51.344190 #23135]  INFO -- : Response[200]: OK, Duration: 3.309s
+I, [2013-03-22T14:19:51.349307 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T14:20:00.246902 #23135]  INFO -- : Response[200]: OK, Duration: 8.897s
+I, [2013-03-22T14:20:00.250265 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:20:01.635750 #23135]  INFO -- : Response[200]: OK, Duration: 1.385s
+I, [2013-03-22T14:20:01.637620 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:20:02.971407 #23135]  INFO -- : Response[200]: OK, Duration: 1.334s
+I, [2013-03-22T14:20:02.981562 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-22T14:20:04.309881 #23135]  INFO -- : Response[500]: Internal Server Error, Duration: 1.327s
+I, [2013-03-22T14:20:04.311669 #23135]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:20:05.970886 #23135]  INFO -- : Response[200]: OK, Duration: 1.659s
+I, [2013-03-22T14:20:05.982481 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T14:20:07.551446 #23135]  INFO -- : Response[401]: Unauthorized, Duration: 1.569s
+I, [2013-03-22T14:20:07.553094 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T14:20:10.836217 #23135]  INFO -- : Response[200]: OK, Duration: 3.283s
+I, [2013-03-22T14:20:10.837540 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-22T14:20:17.116674 #23135]  INFO -- : Response[201]: Created, Duration: 6.279s
+I, [2013-03-22T14:20:17.118558 #23135]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment?count=10
+I, [2013-03-22T14:20:28.906269 #23135]  INFO -- : Response[200]: OK, Duration: 11.786s
+I, [2013-03-22T14:20:28.912017 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T14:20:32.057474 #23135]  INFO -- : Response[200]: OK, Duration: 3.145s
+I, [2013-03-22T14:20:32.057843 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/vault/credit-card
+I, [2013-03-22T14:20:34.071097 #23135]  INFO -- : Response[201]: Created, Duration: 2.013s
+I, [2013-03-22T14:20:34.072024 #23135]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-98P59449112190245KFGBWVY
+I, [2013-03-22T14:20:35.945234 #23135]  INFO -- : Response[200]: OK, Duration: 1.873s
+I, [2013-03-22T14:20:35.947004 #23135]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment/PAY-1234
+I, [2013-03-22T14:20:37.467832 #23135]  INFO -- : Response[404]: Not Found, Duration: 1.521s
+I, [2013-03-22T14:20:37.469611 #23135]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-22T14:20:39.037665 #23135]  INFO -- : Response[400]: Bad Request, Duration: 1.568s
+I, [2013-03-22T14:29:05.148897 #23237]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T14:29:09.100102 #23237]  INFO -- : Response[200]: OK, Duration: 3.951s
+I, [2013-03-22T14:29:09.124149 #23237]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T14:29:17.094471 #23237]  INFO -- : Response[200]: OK, Duration: 7.970s
+I, [2013-03-22T14:29:17.096542 #23237]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:29:18.484462 #23237]  INFO -- : Response[200]: OK, Duration: 1.388s
+I, [2013-03-22T14:29:47.064910 #23247]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T14:29:49.930749 #23247]  INFO -- : Response[200]: OK, Duration: 2.866s
+I, [2013-03-22T14:29:49.959222 #23247]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T14:29:58.146005 #23247]  INFO -- : Response[200]: OK, Duration: 8.187s
+I, [2013-03-22T14:29:58.148098 #23247]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:29:59.572633 #23247]  INFO -- : Response[200]: OK, Duration: 1.424s
+I, [2013-03-22T14:30:54.571260 #23256]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T14:30:57.178906 #23256]  INFO -- : Response[200]: OK, Duration: 2.607s
+I, [2013-03-22T14:30:57.211504 #23256]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T14:31:05.089977 #23256]  INFO -- : Response[200]: OK, Duration: 7.878s
+I, [2013-03-22T14:31:05.093515 #23256]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:31:06.513130 #23256]  INFO -- : Response[200]: OK, Duration: 1.419s
+I, [2013-03-22T14:34:16.058833 #23268]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T14:34:18.299853 #23268]  INFO -- : Response[200]: OK, Duration: 2.241s
+I, [2013-03-22T14:34:18.344577 #23268]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T14:34:26.065401 #23268]  INFO -- : Response[200]: OK, Duration: 7.720s
+I, [2013-03-22T14:34:26.068022 #23268]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:34:27.451947 #23268]  INFO -- : Response[200]: OK, Duration: 1.384s
+I, [2013-03-22T14:44:24.788518 #23330]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T14:44:28.144681 #23330]  INFO -- : Response[200]: OK, Duration: 3.355s
+I, [2013-03-22T14:44:28.185406 #23330]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T14:44:41.544654 #23330]  INFO -- : Response[200]: OK, Duration: 13.359s
+I, [2013-03-22T14:44:41.547756 #23330]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T14:44:42.942528 #23330]  INFO -- : Response[200]: OK, Duration: 1.395s
+I, [2013-03-22T14:45:29.474279 #23341]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T14:45:40.450316 #23341]  INFO -- : Response[200]: OK, Duration: 10.976s
+W, [2013-03-22T14:48:09.486730 #23393]  WARN -- : undefined method `notExist=' for #<TestType:0x9a22cc8>
+W, [2013-03-22T16:40:03.834605 #27903]  WARN -- : undefined method `notExist=' for #<TestType:0xa84cad8>
+I, [2013-03-22T16:40:03.846007 #27903]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T16:40:06.016104 #27903]  INFO -- : Response[200]: OK, Duration: 2.170s
+I, [2013-03-22T16:40:06.017376 #27903]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T16:40:07.932718 #27903]  INFO -- : Response[200]: OK, Duration: 1.915s
+I, [2013-03-22T16:40:07.946576 #27903]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T16:40:09.899429 #27903]  INFO -- : Response[200]: OK, Duration: 1.953s
+I, [2013-03-22T16:40:09.900430 #27903]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T16:40:11.854389 #27903]  INFO -- : Response[200]: OK, Duration: 1.954s
+I, [2013-03-22T16:40:11.860144 #27903]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T16:40:11.860290 #27903]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:14.925393 #27903]  INFO -- : Response[200]: OK, Duration: 3.065s
+I, [2013-03-22T16:40:14.935509 #27903]  INFO -- : Action: MassPay
+I, [2013-03-22T16:40:14.936033 #27903]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:17.941548 #27903]  INFO -- : Response[200]: OK, Duration: 3.005s
+I, [2013-03-22T16:40:17.952775 #27903]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T16:40:17.952915 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:20.494845 #27903]  INFO -- : Response[200]: OK, Duration: 2.542s
+I, [2013-03-22T16:40:20.510005 #27903]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T16:40:20.510156 #27903]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:23.501782 #27903]  INFO -- : Response[200]: OK, Duration: 2.992s
+I, [2013-03-22T16:40:23.527880 #27903]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T16:40:23.528039 #27903]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:25.172663 #27903]  INFO -- : Response[200]: OK, Duration: 1.645s
+I, [2013-03-22T16:40:25.185325 #27903]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T16:40:25.185504 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:26.897861 #27903]  INFO -- : Response[200]: OK, Duration: 1.712s
+I, [2013-03-22T16:40:26.909469 #27903]  INFO -- : Action: InvalidAction
+I, [2013-03-22T16:40:26.909613 #27903]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:28.484082 #27903]  INFO -- : Response[500]: Internal Server Error, Duration: 1.574s
+I, [2013-03-22T16:40:28.486801 #27903]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T16:40:28.486922 #27903]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T16:40:30.495086 #27903]  INFO -- : Response[200]: OK, Duration: 2.008s
+I, [2013-03-22T16:40:30.522867 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T16:40:32.561962 #27903]  INFO -- : Response[200]: OK, Duration: 2.039s
+I, [2013-03-22T16:40:32.564212 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T16:40:34.166811 #27903]  INFO -- : Response[200]: OK, Duration: 1.602s
+I, [2013-03-22T16:40:34.168741 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T16:40:35.778369 #27903]  INFO -- : Response[200]: OK, Duration: 1.609s
+I, [2013-03-22T16:40:35.781135 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:40:38.713397 #27903]  INFO -- : Response[200]: OK, Duration: 2.932s
+I, [2013-03-22T16:40:38.715994 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T16:40:41.118394 #27903]  INFO -- : Response[200]: OK, Duration: 2.402s
+I, [2013-03-22T16:40:41.121921 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T16:40:42.547559 #27903]  INFO -- : Response[200]: OK, Duration: 1.425s
+I, [2013-03-22T16:40:42.549567 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T16:40:43.869846 #27903]  INFO -- : Response[200]: OK, Duration: 1.320s
+I, [2013-03-22T16:40:43.872168 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-22T16:40:45.185060 #27903]  INFO -- : Response[500]: Internal Server Error, Duration: 1.313s
+I, [2013-03-22T16:40:45.186512 #27903]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T16:40:46.813309 #27903]  INFO -- : Response[200]: OK, Duration: 1.627s
+I, [2013-03-22T16:40:46.820304 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T16:40:48.376182 #27903]  INFO -- : Response[401]: Unauthorized, Duration: 1.556s
+I, [2013-03-22T16:40:48.377439 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T16:40:51.367923 #27903]  INFO -- : Response[200]: OK, Duration: 2.990s
+I, [2013-03-22T16:40:51.369427 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-22T16:40:58.959119 #27903]  INFO -- : Response[201]: Created, Duration: 7.589s
+I, [2013-03-22T16:40:58.960889 #27903]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment?count=10
+I, [2013-03-22T16:41:07.995623 #27903]  INFO -- : Response[200]: OK, Duration: 9.035s
+I, [2013-03-22T16:41:08.000031 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T16:41:10.917358 #27903]  INFO -- : Response[200]: OK, Duration: 2.917s
+I, [2013-03-22T16:41:10.917637 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/vault/credit-card
+I, [2013-03-22T16:41:12.511045 #27903]  INFO -- : Response[201]: Created, Duration: 1.593s
+I, [2013-03-22T16:41:12.512213 #27903]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-5XB47285N64262149KFGDYUA
+I, [2013-03-22T16:41:14.142658 #27903]  INFO -- : Response[200]: OK, Duration: 1.630s
+I, [2013-03-22T16:41:14.144084 #27903]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment/PAY-1234
+I, [2013-03-22T16:41:15.754576 #27903]  INFO -- : Response[404]: Not Found, Duration: 1.610s
+I, [2013-03-22T16:41:15.755812 #27903]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-22T16:41:17.314421 #27903]  INFO -- : Response[400]: Bad Request, Duration: 1.558s
+I, [2013-03-22T16:42:34.902722 #27986]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:42:38.270464 #27986]  INFO -- : Response[200]: OK, Duration: 3.367s
+I, [2013-03-22T16:42:38.278861 #27986]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T16:42:41.259535 #27986]  INFO -- : Response[200]: OK, Duration: 2.980s
+I, [2013-03-22T16:43:23.002961 #27993]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T16:43:25.591692 #27993]  INFO -- : Response[200]: OK, Duration: 2.588s
+I, [2013-03-22T16:43:47.958267 #27998]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:43:50.881235 #27998]  INFO -- : Response[200]: OK, Duration: 2.923s
+I, [2013-03-22T16:43:50.888993 #27998]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T16:43:53.377867 #27998]  INFO -- : Response[200]: OK, Duration: 2.489s
+I, [2013-03-22T16:44:22.342599 #28004]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:44:24.184175 #28004]  INFO -- : Response[200]: OK, Duration: 1.841s
+I, [2013-03-22T16:44:24.193104 #28004]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T16:44:26.527674 #28004]  INFO -- : Response[200]: OK, Duration: 2.334s
+I, [2013-03-22T16:44:45.254108 #28011]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:44:47.142037 #28011]  INFO -- : Response[200]: OK, Duration: 1.888s
+I, [2013-03-22T16:44:47.150333 #28011]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T16:44:49.564537 #28011]  INFO -- : Response[200]: OK, Duration: 2.414s
+I, [2013-03-22T16:47:37.757875 #28030]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:47:40.784351 #28030]  INFO -- : Response[200]: OK, Duration: 3.026s
+I, [2013-03-22T16:48:00.411024 #28035]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:48:05.102791 #28035]  INFO -- : Response[200]: OK, Duration: 4.691s
+I, [2013-03-22T16:48:46.879225 #28040]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:48:49.448600 #28040]  INFO -- : Response[200]: OK, Duration: 2.569s
+I, [2013-03-22T16:49:07.223159 #28044]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:49:10.725939 #28044]  INFO -- : Response[200]: OK, Duration: 3.502s
+I, [2013-03-22T16:50:31.592269 #28051]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T16:50:34.667793 #28051]  INFO -- : Response[200]: OK, Duration: 3.075s
+I, [2013-03-22T17:09:06.804704 #28415]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-22T17:09:10.020396 #28415]  INFO -- : Response[200]: OK, Duration: 3.215s
+W, [2013-03-22T17:10:03.933006 #28424]  WARN -- : undefined method `notExist=' for #<TestType:0xa446948>
+I, [2013-03-22T17:10:03.942086 #28424]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T17:10:06.307083 #28424]  INFO -- : Response[200]: OK, Duration: 2.365s
+I, [2013-03-22T17:10:06.308054 #28424]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T17:10:08.692607 #28424]  INFO -- : Response[200]: OK, Duration: 2.384s
+I, [2013-03-22T17:10:08.706099 #28424]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T17:10:11.103804 #28424]  INFO -- : Response[200]: OK, Duration: 2.397s
+I, [2013-03-22T17:10:11.104790 #28424]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-22T17:10:13.500375 #28424]  INFO -- : Response[200]: OK, Duration: 2.395s
+I, [2013-03-22T17:10:13.505362 #28424]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T17:10:13.505512 #28424]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:16.698555 #28424]  INFO -- : Response[200]: OK, Duration: 3.193s
+I, [2013-03-22T17:10:16.707917 #28424]  INFO -- : Action: MassPay
+I, [2013-03-22T17:10:16.708053 #28424]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:20.317845 #28424]  INFO -- : Response[200]: OK, Duration: 3.610s
+I, [2013-03-22T17:10:20.327672 #28424]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T17:10:20.327879 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:23.312749 #28424]  INFO -- : Response[200]: OK, Duration: 2.985s
+I, [2013-03-22T17:10:23.328382 #28424]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T17:10:23.328569 #28424]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:26.360036 #28424]  INFO -- : Response[200]: OK, Duration: 3.031s
+I, [2013-03-22T17:10:26.381978 #28424]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T17:10:26.382174 #28424]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:28.668861 #28424]  INFO -- : Response[200]: OK, Duration: 2.287s
+I, [2013-03-22T17:10:28.681795 #28424]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T17:10:28.681976 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:31.082218 #28424]  INFO -- : Response[200]: OK, Duration: 2.400s
+I, [2013-03-22T17:10:31.094985 #28424]  INFO -- : Action: InvalidAction
+I, [2013-03-22T17:10:31.095200 #28424]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:33.314747 #28424]  INFO -- : Response[500]: Internal Server Error, Duration: 2.219s
+I, [2013-03-22T17:10:33.317777 #28424]  INFO -- : Action: TransactionSearch
+I, [2013-03-22T17:10:33.318091 #28424]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-22T17:10:35.871516 #28424]  INFO -- : Response[200]: OK, Duration: 2.553s
+I, [2013-03-22T17:10:35.899720 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T17:10:38.246901 #28424]  INFO -- : Response[200]: OK, Duration: 2.347s
+I, [2013-03-22T17:10:38.249074 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T17:10:40.553423 #28424]  INFO -- : Response[200]: OK, Duration: 2.304s
+I, [2013-03-22T17:10:40.555103 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T17:10:42.813972 #28424]  INFO -- : Response[200]: OK, Duration: 2.258s
+I, [2013-03-22T17:10:42.817506 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-22T17:10:45.774081 #28424]  INFO -- : Response[200]: OK, Duration: 2.956s
+I, [2013-03-22T17:10:45.777038 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T17:10:47.873819 #28424]  INFO -- : Response[200]: OK, Duration: 2.097s
+I, [2013-03-22T17:10:47.876307 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T17:10:49.843386 #28424]  INFO -- : Response[200]: OK, Duration: 1.967s
+I, [2013-03-22T17:10:49.845020 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-22T17:10:51.808151 #28424]  INFO -- : Response[500]: Internal Server Error, Duration: 1.963s
+I, [2013-03-22T17:10:51.809164 #28424]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-22T17:10:54.033742 #28424]  INFO -- : Response[200]: OK, Duration: 2.224s
+I, [2013-03-22T17:10:54.040310 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T17:10:56.243353 #28424]  INFO -- : Response[401]: Unauthorized, Duration: 2.203s
+I, [2013-03-22T17:10:56.244666 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T17:11:00.248339 #28424]  INFO -- : Response[200]: OK, Duration: 4.003s
+I, [2013-03-22T17:11:00.249835 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-22T17:11:07.708698 #28424]  INFO -- : Response[201]: Created, Duration: 7.459s
+I, [2013-03-22T17:11:07.710072 #28424]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment?count=10
+I, [2013-03-22T17:11:16.229599 #28424]  INFO -- : Response[200]: OK, Duration: 8.519s
+I, [2013-03-22T17:11:16.234726 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-22T17:11:19.989318 #28424]  INFO -- : Response[200]: OK, Duration: 3.754s
+I, [2013-03-22T17:11:19.989726 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/vault/credit-card
+I, [2013-03-22T17:11:22.422387 #28424]  INFO -- : Response[201]: Created, Duration: 2.433s
+I, [2013-03-22T17:11:22.429588 #28424]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-03H69859XC7611234KFGEGYI
+I, [2013-03-22T17:11:24.445537 #28424]  INFO -- : Response[200]: OK, Duration: 2.015s
+I, [2013-03-22T17:11:24.448079 #28424]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment/PAY-1234
+I, [2013-03-22T17:11:26.575326 #28424]  INFO -- : Response[404]: Not Found, Duration: 2.127s
+I, [2013-03-22T17:11:26.576610 #28424]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-22T17:11:28.762504 #28424]  INFO -- : Response[400]: Bad Request, Duration: 2.186s
+I, [2013-03-25T09:17:45.878758 #3382]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-25T09:17:50.319377 #3382]  INFO -- : Response[200]: OK, Duration: 4.440s
+W, [2013-03-25T09:18:08.338704 #3388]  WARN -- : undefined method `notExist=' for #<TestType:0x9863c34>
+I, [2013-03-25T09:18:08.348099 #3388]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:18:10.733821 #3388]  INFO -- : Response[200]: OK, Duration: 2.386s
+I, [2013-03-25T09:18:10.735472 #3388]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:18:13.146335 #3388]  INFO -- : Response[200]: OK, Duration: 2.392s
+I, [2013-03-25T09:18:13.167831 #3388]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:18:15.517184 #3388]  INFO -- : Response[200]: OK, Duration: 2.349s
+I, [2013-03-25T09:18:15.518889 #3388]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:18:17.909702 #3388]  INFO -- : Response[200]: OK, Duration: 2.391s
+I, [2013-03-25T09:18:17.914916 #3388]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:18:17.915069 #3388]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:21.077912 #3388]  INFO -- : Response[200]: OK, Duration: 3.163s
+I, [2013-03-25T09:18:21.087240 #3388]  INFO -- : Action: MassPay
+I, [2013-03-25T09:18:21.087615 #3388]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:24.746403 #3388]  INFO -- : Response[200]: OK, Duration: 3.659s
+I, [2013-03-25T09:18:24.758502 #3388]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:18:24.758717 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:27.814108 #3388]  INFO -- : Response[200]: OK, Duration: 3.055s
+I, [2013-03-25T09:18:27.829276 #3388]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:18:27.829587 #3388]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:31.170097 #3388]  INFO -- : Response[200]: OK, Duration: 3.340s
+I, [2013-03-25T09:18:31.197619 #3388]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:18:31.197793 #3388]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:33.482337 #3388]  INFO -- : Response[200]: OK, Duration: 2.284s
+I, [2013-03-25T09:18:33.494888 #3388]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:18:33.495053 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:35.894481 #3388]  INFO -- : Response[200]: OK, Duration: 2.399s
+I, [2013-03-25T09:18:35.906727 #3388]  INFO -- : Action: InvalidAction
+I, [2013-03-25T09:18:35.906892 #3388]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:38.126431 #3388]  INFO -- : Response[500]: Internal Server Error, Duration: 2.219s
+I, [2013-03-25T09:18:38.129311 #3388]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:18:38.129475 #3388]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:18:40.683788 #3388]  INFO -- : Response[200]: OK, Duration: 2.554s
+I, [2013-03-25T09:18:40.712188 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:18:43.333406 #3388]  INFO -- : Response[200]: OK, Duration: 2.621s
+I, [2013-03-25T09:18:43.335323 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:18:45.978903 #3388]  INFO -- : Response[200]: OK, Duration: 2.643s
+I, [2013-03-25T09:18:45.981775 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:18:48.601454 #3388]  INFO -- : Response[200]: OK, Duration: 2.620s
+I, [2013-03-25T09:18:48.603559 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-25T09:18:52.803864 #3388]  INFO -- : Response[200]: OK, Duration: 4.200s
+I, [2013-03-25T09:18:52.806554 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-25T09:18:56.005255 #3388]  INFO -- : Response[200]: OK, Duration: 3.198s
+I, [2013-03-25T09:18:56.008906 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:18:58.323919 #3388]  INFO -- : Response[200]: OK, Duration: 2.315s
+I, [2013-03-25T09:18:58.326616 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:19:00.543352 #3388]  INFO -- : Response[200]: OK, Duration: 2.217s
+I, [2013-03-25T09:19:00.544835 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-25T09:19:02.750027 #3388]  INFO -- : Response[500]: Internal Server Error, Duration: 2.205s
+I, [2013-03-25T09:19:02.752520 #3388]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:19:05.269765 #3388]  INFO -- : Response[200]: OK, Duration: 2.517s
+I, [2013-03-25T09:19:05.276308 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-25T09:19:07.483107 #3388]  INFO -- : Response[401]: Unauthorized, Duration: 2.207s
+I, [2013-03-25T09:19:07.484530 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-25T09:19:11.143740 #3388]  INFO -- : Response[200]: OK, Duration: 3.659s
+I, [2013-03-25T09:19:11.145580 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-25T09:19:18.451638 #3388]  INFO -- : Response[201]: Created, Duration: 7.306s
+I, [2013-03-25T09:19:18.453723 #3388]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment?count=10
+I, [2013-03-25T09:19:27.725767 #3388]  INFO -- : Response[200]: OK, Duration: 9.272s
+I, [2013-03-25T09:19:27.730140 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-25T09:19:31.497923 #3388]  INFO -- : Response[200]: OK, Duration: 3.768s
+I, [2013-03-25T09:19:31.498671 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/vault/credit-card
+I, [2013-03-25T09:19:33.503329 #3388]  INFO -- : Response[201]: Created, Duration: 2.004s
+I, [2013-03-25T09:19:33.503860 #3388]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-9K901243LW178131JKFH4STQ
+I, [2013-03-25T09:19:35.797735 #3388]  INFO -- : Response[200]: OK, Duration: 2.294s
+I, [2013-03-25T09:19:35.799226 #3388]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment/PAY-1234
+I, [2013-03-25T09:19:38.085096 #3388]  INFO -- : Response[404]: Not Found, Duration: 2.286s
+I, [2013-03-25T09:19:38.086046 #3388]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-25T09:19:40.061894 #3388]  INFO -- : Response[400]: Bad Request, Duration: 1.976s
+I, [2013-03-25T09:20:33.057011 #3511]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-25T09:20:36.122616 #3511]  INFO -- : Response[200]: OK, Duration: 3.065s
+W, [2013-03-25T09:20:47.408323 #3526]  WARN -- : undefined method `notExist=' for #<TestType:0x904bd94>
+I, [2013-03-25T09:20:47.417867 #3526]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:20:49.774000 #3526]  INFO -- : Response[200]: OK, Duration: 2.356s
+I, [2013-03-25T09:20:49.775689 #3526]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:20:51.493298 #3526]  INFO -- : Response[200]: OK, Duration: 1.717s
+I, [2013-03-25T09:20:51.507388 #3526]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:20:53.284133 #3526]  INFO -- : Response[200]: OK, Duration: 1.777s
+I, [2013-03-25T09:20:53.284739 #3526]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-25T09:20:55.267562 #3526]  INFO -- : Response[200]: OK, Duration: 1.982s
+I, [2013-03-25T09:20:55.272538 #3526]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:20:55.272694 #3526]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:20:58.108169 #3526]  INFO -- : Response[200]: OK, Duration: 2.835s
+I, [2013-03-25T09:20:58.140116 #3526]  INFO -- : Action: MassPay
+I, [2013-03-25T09:20:58.140394 #3526]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:21:01.390645 #3526]  INFO -- : Response[200]: OK, Duration: 3.250s
+I, [2013-03-25T09:21:01.403093 #3526]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:21:01.403256 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:21:03.765113 #3526]  INFO -- : Response[200]: OK, Duration: 2.362s
+I, [2013-03-25T09:21:03.781497 #3526]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:21:03.781747 #3526]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:21:06.458058 #3526]  INFO -- : Response[200]: OK, Duration: 2.676s
+I, [2013-03-25T09:21:06.481232 #3526]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:21:06.481490 #3526]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:21:07.894898 #3526]  INFO -- : Response[200]: OK, Duration: 1.413s
+I, [2013-03-25T09:21:07.906804 #3526]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:21:07.906974 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:21:09.384083 #3526]  INFO -- : Response[200]: OK, Duration: 1.477s
+I, [2013-03-25T09:21:09.394911 #3526]  INFO -- : Action: InvalidAction
+I, [2013-03-25T09:21:09.395067 #3526]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:21:10.738808 #3526]  INFO -- : Response[500]: Internal Server Error, Duration: 1.344s
+I, [2013-03-25T09:21:10.741955 #3526]  INFO -- : Action: TransactionSearch
+I, [2013-03-25T09:21:10.742188 #3526]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-25T09:21:12.750213 #3526]  INFO -- : Response[200]: OK, Duration: 2.008s
+I, [2013-03-25T09:21:12.780692 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:21:14.714621 #3526]  INFO -- : Response[200]: OK, Duration: 1.934s
+I, [2013-03-25T09:21:14.717970 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:21:16.678214 #3526]  INFO -- : Response[200]: OK, Duration: 1.960s
+I, [2013-03-25T09:21:16.679601 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:21:18.555037 #3526]  INFO -- : Response[200]: OK, Duration: 1.874s
+I, [2013-03-25T09:21:18.559426 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-25T09:21:39.492089 #3526]  INFO -- : Response[200]: OK, Duration: 20.932s
+I, [2013-03-25T09:21:39.495860 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-25T09:21:42.476627 #3526]  INFO -- : Response[200]: OK, Duration: 2.981s
+I, [2013-03-25T09:21:42.479023 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:21:44.135954 #3526]  INFO -- : Response[200]: OK, Duration: 1.657s
+I, [2013-03-25T09:21:44.137665 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:21:45.700650 #3526]  INFO -- : Response[200]: OK, Duration: 1.563s
+I, [2013-03-25T09:21:45.702431 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-25T09:21:47.249768 #3526]  INFO -- : Response[500]: Internal Server Error, Duration: 1.547s
+I, [2013-03-25T09:21:47.251488 #3526]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-25T09:21:49.124930 #3526]  INFO -- : Response[200]: OK, Duration: 1.873s
+I, [2013-03-25T09:21:49.135259 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-25T09:21:50.892611 #3526]  INFO -- : Response[401]: Unauthorized, Duration: 1.757s
+I, [2013-03-25T09:21:50.894868 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-25T09:21:53.971292 #3526]  INFO -- : Response[200]: OK, Duration: 3.076s
+I, [2013-03-25T09:21:53.972955 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-25T09:22:01.158736 #3526]  INFO -- : Response[201]: Created, Duration: 7.186s
+I, [2013-03-25T09:22:01.159730 #3526]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment?count=10
+I, [2013-03-25T09:22:09.086605 #3526]  INFO -- : Response[200]: OK, Duration: 7.927s
+I, [2013-03-25T09:22:09.092304 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-25T09:22:12.233715 #3526]  INFO -- : Response[200]: OK, Duration: 3.141s
+I, [2013-03-25T09:22:12.234512 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/vault/credit-card
+I, [2013-03-25T09:22:13.588687 #3526]  INFO -- : Response[201]: Created, Duration: 1.354s
+I, [2013-03-25T09:22:13.589258 #3526]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-0PU80998NU008241XKFH4T3Q
+I, [2013-03-25T09:22:15.000629 #3526]  INFO -- : Response[200]: OK, Duration: 1.411s
+I, [2013-03-25T09:22:15.002631 #3526]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment/PAY-1234
+I, [2013-03-25T09:22:16.191849 #3526]  INFO -- : Response[404]: Not Found, Duration: 1.189s
+I, [2013-03-25T09:22:16.194577 #3526]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-25T09:22:17.509886 #3526]  INFO -- : Response[400]: Bad Request, Duration: 1.315s
+W, [2013-03-26T12:37:33.226058 #8203]  WARN -- : undefined method `notExist=' for #<TestType:0x93b8f7c>
+I, [2013-03-26T12:37:33.245460 #8203]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-26T12:37:35.452697 #8203]  INFO -- : Response[200]: OK, Duration: 2.207s
+I, [2013-03-26T12:37:35.453581 #8203]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-26T12:37:37.451618 #8203]  INFO -- : Response[200]: OK, Duration: 1.998s
+I, [2013-03-26T12:37:37.456674 #8203]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-26T12:37:39.393311 #8203]  INFO -- : Response[200]: OK, Duration: 1.936s
+I, [2013-03-26T12:37:39.394745 #8203]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-03-26T12:37:41.324446 #8203]  INFO -- : Response[200]: OK, Duration: 1.929s
+I, [2013-03-26T12:37:41.329514 #8203]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T12:37:41.329668 #8203]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:43.994254 #8203]  INFO -- : Response[200]: OK, Duration: 2.664s
+I, [2013-03-26T12:37:44.008053 #8203]  INFO -- : Action: MassPay
+I, [2013-03-26T12:37:44.008271 #8203]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:47.012720 #8203]  INFO -- : Response[200]: OK, Duration: 3.004s
+I, [2013-03-26T12:37:47.042353 #8203]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T12:37:47.042634 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:49.797710 #8203]  INFO -- : Response[200]: OK, Duration: 2.755s
+I, [2013-03-26T12:37:49.852085 #8203]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T12:37:49.852293 #8203]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:52.603050 #8203]  INFO -- : Response[200]: OK, Duration: 2.751s
+I, [2013-03-26T12:37:52.644079 #8203]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T12:37:52.644279 #8203]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:54.305257 #8203]  INFO -- : Response[200]: OK, Duration: 1.661s
+I, [2013-03-26T12:37:54.316153 #8203]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T12:37:54.316407 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:56.072703 #8203]  INFO -- : Response[200]: OK, Duration: 1.756s
+I, [2013-03-26T12:37:56.085193 #8203]  INFO -- : Action: InvalidAction
+I, [2013-03-26T12:37:56.085435 #8203]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:57.654219 #8203]  INFO -- : Response[500]: Internal Server Error, Duration: 1.569s
+I, [2013-03-26T12:37:57.658076 #8203]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T12:37:57.658351 #8203]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T12:37:59.558997 #8203]  INFO -- : Response[200]: OK, Duration: 1.901s
+I, [2013-03-26T12:37:59.589775 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T12:38:01.963725 #8203]  INFO -- : Response[200]: OK, Duration: 2.374s
+I, [2013-03-26T12:38:01.965776 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T12:38:03.904247 #8203]  INFO -- : Response[200]: OK, Duration: 1.938s
+I, [2013-03-26T12:38:03.905584 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T12:38:05.792320 #8203]  INFO -- : Response[200]: OK, Duration: 1.887s
+I, [2013-03-26T12:38:05.794444 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-26T12:38:08.623320 #8203]  INFO -- : Response[200]: OK, Duration: 2.829s
+I, [2013-03-26T12:38:08.625257 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-26T12:38:11.267318 #8203]  INFO -- : Response[200]: OK, Duration: 2.642s
+I, [2013-03-26T12:38:11.269983 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T12:38:12.924379 #8203]  INFO -- : Response[200]: OK, Duration: 1.654s
+I, [2013-03-26T12:38:12.926395 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T12:38:14.488068 #8203]  INFO -- : Response[200]: OK, Duration: 1.562s
+I, [2013-03-26T12:38:14.489550 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-26T12:38:16.026582 #8203]  INFO -- : Response[500]: Internal Server Error, Duration: 1.537s
+I, [2013-03-26T12:38:16.028195 #8203]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T12:38:17.856165 #8203]  INFO -- : Response[200]: OK, Duration: 1.828s
+I, [2013-03-26T12:38:17.862818 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-26T12:38:19.179309 #8203]  INFO -- : Response[401]: Unauthorized, Duration: 1.316s
+I, [2013-03-26T12:38:19.180509 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-26T12:38:22.150113 #8203]  INFO -- : Response[200]: OK, Duration: 2.969s
+I, [2013-03-26T12:38:22.152249 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-26T12:38:28.643532 #8203]  INFO -- : Response[201]: Created, Duration: 6.491s
+I, [2013-03-26T12:38:28.645015 #8203]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment?count=10
+I, [2013-03-26T12:38:32.114115 #8203]  INFO -- : Response[200]: OK, Duration: 3.469s
+I, [2013-03-26T12:38:32.116653 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/oauth2/token
+I, [2013-03-26T12:38:34.626953 #8203]  INFO -- : Response[200]: OK, Duration: 2.510s
+I, [2013-03-26T12:38:34.627835 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/vault/credit-card
+I, [2013-03-26T12:38:36.112816 #8203]  INFO -- : Response[201]: Created, Duration: 1.485s
+I, [2013-03-26T12:38:36.113735 #8203]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-0G603941D7595772EKFIUS4Y
+I, [2013-03-26T12:38:37.309407 #8203]  INFO -- : Response[200]: OK, Duration: 1.195s
+I, [2013-03-26T12:38:37.311102 #8203]  INFO -- : Request[get]: https://api.sandbox.paypal.com/v1/payments/payment/PAY-1234
+I, [2013-03-26T12:38:38.798844 #8203]  INFO -- : Response[404]: Not Found, Duration: 1.488s
+I, [2013-03-26T12:38:38.800122 #8203]  INFO -- : Request[post]: https://api.sandbox.paypal.com/v1/payments/payment
+I, [2013-03-26T12:38:40.250925 #8203]  INFO -- : Response[400]: Bad Request, Duration: 1.451s
+I, [2013-03-26T13:07:59.153100 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T13:08:01.488332 #8679]  INFO -- : Response[200]: OK, Duration: 2.335s
+I, [2013-03-26T13:08:01.489642 #8679]  INFO -- : API Response status => Success
+I, [2013-03-26T13:08:01.512635 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T13:08:03.440647 #8679]  INFO -- : Response[200]: OK, Duration: 1.928s
+I, [2013-03-26T13:08:03.441322 #8679]  INFO -- : API Response status => Success
+I, [2013-03-26T13:08:03.442904 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T13:08:05.290508 #8679]  INFO -- : Response[200]: OK, Duration: 1.847s
+I, [2013-03-26T13:08:05.291298 #8679]  INFO -- : API Response status => Success
+I, [2013-03-26T13:08:05.299490 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-26T13:08:08.250126 #8679]  INFO -- : Response[200]: OK, Duration: 2.950s
+I, [2013-03-26T13:08:08.250995 #8679]  INFO -- : API Response status => Success
+I, [2013-03-26T13:08:08.252791 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-26T13:08:10.719847 #8679]  INFO -- : Response[200]: OK, Duration: 2.467s
+I, [2013-03-26T13:08:10.720613 #8679]  INFO -- : API Response status => Success
+I, [2013-03-26T13:08:10.723507 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T13:08:12.342252 #8679]  INFO -- : Response[200]: OK, Duration: 1.618s
+I, [2013-03-26T13:08:12.342766 #8679]  INFO -- : API Response status => Failure
+I, [2013-03-26T13:08:12.344626 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T13:08:13.904308 #8679]  INFO -- : Response[200]: OK, Duration: 1.559s
+I, [2013-03-26T13:08:13.904861 #8679]  INFO -- : API Response status => Failure
+I, [2013-03-26T13:08:13.908911 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-26T13:08:15.451692 #8679]  INFO -- : Response[500]: Internal Server Error, Duration: 1.543s
+I, [2013-03-26T13:08:15.453786 #8679]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T13:08:17.309107 #8679]  INFO -- : Response[200]: OK, Duration: 1.855s
+I, [2013-03-26T13:08:17.309524 #8679]  INFO -- : API Response status => Failure
+I, [2013-03-26T17:33:34.338232 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T17:33:36.677142 #11194]  INFO -- : Response[200]: OK, Duration: 2.339s
+I, [2013-03-26T17:33:36.678089 #11194]  INFO -- : ConvertCurrency[Success]
+I, [2013-03-26T17:33:36.702242 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T17:33:38.590423 #11194]  INFO -- : Response[200]: OK, Duration: 1.888s
+I, [2013-03-26T17:33:38.590775 #11194]  INFO -- : ConvertCurrency[Success]
+I, [2013-03-26T17:33:38.591894 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T17:33:40.436853 #11194]  INFO -- : Response[200]: OK, Duration: 1.845s
+I, [2013-03-26T17:33:40.437559 #11194]  INFO -- : ConvertCurrency[Success]
+I, [2013-03-26T17:33:40.444939 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Invoice/CreateInvoice
+I, [2013-03-26T17:33:43.381246 #11194]  INFO -- : Response[200]: OK, Duration: 2.936s
+I, [2013-03-26T17:33:43.382069 #11194]  INFO -- : CreateInvoice[Success]
+I, [2013-03-26T17:33:43.384042 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/Permissions/GetBasicPersonalData
+I, [2013-03-26T17:33:45.923731 #11194]  INFO -- : Response[200]: OK, Duration: 2.539s
+I, [2013-03-26T17:33:45.924562 #11194]  INFO -- : GetBasicPersonalData[Success]
+I, [2013-03-26T17:33:45.926995 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T17:33:47.579118 #11194]  INFO -- : Response[200]: OK, Duration: 1.652s
+I, [2013-03-26T17:33:47.579622 #11194]  INFO -- : ConvertCurrency[Failure]
+I, [2013-03-26T17:33:47.581370 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T17:33:49.135904 #11194]  INFO -- : Response[200]: OK, Duration: 1.554s
+I, [2013-03-26T17:33:49.136568 #11194]  INFO -- : ConvertCurrency[Failure]
+I, [2013-03-26T17:33:49.140582 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/InvalidAction
+I, [2013-03-26T17:33:50.680234 #11194]  INFO -- : Response[500]: Internal Server Error, Duration: 1.539s
+I, [2013-03-26T17:33:50.681876 #11194]  INFO -- : Request[post]: https://svcs.sandbox.paypal.com/AdaptivePayments/ConvertCurrency
+I, [2013-03-26T17:33:52.544747 #11194]  INFO -- : Response[200]: OK, Duration: 1.863s
+I, [2013-03-26T17:33:52.545103 #11194]  INFO -- : ConvertCurrency[Failure]
+I, [2013-03-26T17:35:45.348652 #11244]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:35:45.348986 #11244]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:35:47.961730 #11244]  INFO -- : Response[200]: OK, Duration: 2.612s
+I, [2013-03-26T17:35:47.970897 #11244]  INFO -- : TransactionSearch[Success]
+I, [2013-03-26T17:35:47.973422 #11244]  INFO -- : Action: MassPay
+I, [2013-03-26T17:35:47.973562 #11244]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:35:50.991476 #11244]  INFO -- : Response[200]: OK, Duration: 3.018s
+I, [2013-03-26T17:35:51.000004 #11244]  INFO -- : MassPay[Success]
+I, [2013-03-26T17:35:51.002983 #11244]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:35:51.003197 #11244]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:35:53.518501 #11244]  INFO -- : Response[200]: OK, Duration: 2.515s
+I, [2013-03-26T17:35:53.526335 #11244]  INFO -- : TransactionSearch[Success]
+I, [2013-03-26T17:35:53.534902 #11244]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:35:53.535153 #11244]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:35:56.155600 #11244]  INFO -- : Response[200]: OK, Duration: 2.620s
+I, [2013-03-26T17:35:56.163570 #11244]  INFO -- : TransactionSearch[Success]
+I, [2013-03-26T17:35:56.182010 #11244]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:35:56.182296 #11244]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:35:57.821463 #11244]  INFO -- : Response[200]: OK, Duration: 1.639s
+I, [2013-03-26T17:35:57.831339 #11244]  INFO -- : TransactionSearch[Failure]
+I, [2013-03-26T17:35:57.839415 #11244]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:35:57.839577 #11244]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:35:59.594065 #11244]  INFO -- : Response[200]: OK, Duration: 1.754s
+I, [2013-03-26T17:35:59.603783 #11244]  INFO -- : TransactionSearch[Failure]
+I, [2013-03-26T17:35:59.611290 #11244]  INFO -- : Action: InvalidAction
+I, [2013-03-26T17:35:59.611477 #11244]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:36:01.178997 #11244]  INFO -- : Response[500]: Internal Server Error, Duration: 1.567s
+I, [2013-03-26T17:36:01.182407 #11244]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:36:01.182579 #11244]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:36:03.088600 #11244]  INFO -- : Response[200]: OK, Duration: 1.906s
+I, [2013-03-26T17:36:03.100596 #11244]  INFO -- : TransactionSearch[Failure]
+I, [2013-03-26T17:37:09.740692 #11263]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:37:09.740878 #11263]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:12.852338 #11263]  INFO -- : Response[200]: OK, Duration: 3.111s
+I, [2013-03-26T17:37:12.861188 #11263]  INFO -- : TransactionSearch[Success]
+I, [2013-03-26T17:37:12.864076 #11263]  INFO -- : Action: MassPay
+I, [2013-03-26T17:37:12.864163 #11263]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:16.540705 #11263]  INFO -- : Response[200]: OK, Duration: 3.676s
+I, [2013-03-26T17:37:16.548690 #11263]  INFO -- : MassPay[Success]
+I, [2013-03-26T17:37:16.552407 #11263]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:37:16.552526 #11263]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:19.343650 #11263]  INFO -- : Response[200]: OK, Duration: 2.791s
+I, [2013-03-26T17:37:19.351147 #11263]  INFO -- : TransactionSearch[Success]
+I, [2013-03-26T17:37:19.359522 #11263]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:37:19.359755 #11263]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:22.343531 #11263]  INFO -- : Response[200]: OK, Duration: 2.984s
+I, [2013-03-26T17:37:22.351016 #11263]  INFO -- : TransactionSearch[Success]
+I, [2013-03-26T17:37:22.370357 #11263]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:37:22.370545 #11263]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:24.660213 #11263]  INFO -- : Response[200]: OK, Duration: 2.290s
+I, [2013-03-26T17:37:24.671684 #11263]  INFO -- : TransactionSearch[Failure]
+I, [2013-03-26T17:37:24.678844 #11263]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:37:24.679016 #11263]  INFO -- : Request[post]: https://api.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:26.810375 #11263]  INFO -- : Response[200]: OK, Duration: 2.131s
+I, [2013-03-26T17:37:26.820733 #11263]  INFO -- : TransactionSearch[Failure]
+I, [2013-03-26T17:37:26.828338 #11263]  INFO -- : Action: InvalidAction
+I, [2013-03-26T17:37:26.828526 #11263]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:28.813766 #11263]  INFO -- : Response[500]: Internal Server Error, Duration: 1.985s
+I, [2013-03-26T17:37:28.817810 #11263]  INFO -- : Action: TransactionSearch
+I, [2013-03-26T17:37:28.817979 #11263]  INFO -- : Request[post]: https://api-3t.sandbox.paypal.com/2.0/
+I, [2013-03-26T17:37:31.123967 #11263]  INFO -- : Response[200]: OK, Duration: 2.306s
+I, [2013-03-26T17:37:31.134999 #11263]  INFO -- : TransactionSearch[Failure]
+W, [2013-04-02T17:01:37.696000 #24195]  WARN -- : undefined method `notExist=' for #<TestType:0x12471dc>
+I, [2013-04-02T17:01:37.785000 #24195]  INFO -- : Request[post]: https://www.sandbox.paypal.com/cgi-bin/webscr
+I, [2013-04-02T17:01:41.062000 #24195]  INFO -- : Response[200]: OK, Duration: 3.257s

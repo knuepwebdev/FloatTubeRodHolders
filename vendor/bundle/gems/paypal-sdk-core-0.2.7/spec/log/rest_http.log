@@ -1,0 +1,131 @@
+opening connection to api.sandbox.paypal.com:443...
+opened
+starting SSL for api.sandbox.paypal.com:443...
+SSL established
+<- "POST /v1/payments/payment HTTP/1.1\r\nX-Paypal-Sandbox-Email-Address: Platform.sdk.seller@gmail.com\r\nAuthorization: Bearer 07Fwa17vwysEHia1qM5Jeb-pMPk-5-uhygVx5lnP4ZU\r\nContent-Type: application/json\r\nUser-Agent: PayPalSDK/sdk-core-ruby 0.2.7 (paypal-sdk-core 0.2.7; ruby 2.0.0p353-x86_64-darwin12.5.0)\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nAccept: */*\r\nHost: api.sandbox.paypal.com\r\nContent-Length: 286\r\n\r\n"
+<- "{\"intent\":\"sale\",\"payer\":{\"payment_method\":\"credit_card\",\"funding_instruments\":[{\"credit_card\":{\"type\":\"visa\",\"number\":\"4417119669820331\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\"}}]},\"transactions\":[{\"amount\":{\"total\":\"7.47\",\"currency\":\"USD\"}}]}"
+-> "HTTP/1.1 201 Created\r\n"
+-> "Server: Apache-Coyote/1.1\r\n"
+-> "PROXY_SERVER_INFO: host=slcsbjava4.slc.paypal.com;threadId=279\r\n"
+-> "Paypal-Debug-Id: 57a12fe873ac0\r\n"
+-> "Content-Language: *\r\n"
+-> "Date: Mon, 30 Dec 2013 10:33:30 GMT\r\n"
+-> "Content-Type: application/json\r\n"
+-> "Content-Length: 1176\r\n"
+-> "\r\n"
+reading 1176 bytes...
+-> "{\"id\":\"PAY-5X9170549A274713NKLAUX4I\",\"create_time\":\"2013-12-30T10:33:21Z\",\"update_time\":\"2013-12-30T10:33:30Z\",\"state\":\"approved\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"credit_card\",\"funding_instruments\":[{\"credit_card\":{\"type\":\"visa\",\"number\":\"xxxxxxxxxxxx0331\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\"}}]},\"transactions\":[{\"amount\":{\"total\":\"7.47\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"7.47\"}},\"related_resources\":[{\"sale\":{\"id\":\"36V15352Y6561663N\",\"create_time\":\"2013-12-30T10:33:21Z\",\"update_time\":\"2013-12-30T10:33:30Z\",\"state\":\"completed\",\"amount\":{\"total\":\"7.47\",\"currency\":\"USD\"},\"parent_payment\":\"PAY-5X9170549A274713NKLAUX4I\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/36V15352Y6561663N\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/36V15352Y6561663N/refund\",\"rel\":\"refund\",\"method\":\"POST\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-5X9170549A274713NKLAUX4I\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-5X9170549A274713NKLAUX4I\",\"rel\":\"self\",\"method\":\"GET\"}]}"
+read 1176 bytes
+Conn keep-alive
+opening connection to api.sandbox.paypal.com:443...
+opened
+starting SSL for api.sandbox.paypal.com:443...
+SSL established
+<- "GET /v1/payments/payment?count=10 HTTP/1.1\r\nX-Paypal-Sandbox-Email-Address: Platform.sdk.seller@gmail.com\r\nAuthorization: Bearer 07Fwa17vwysEHia1qM5Jeb-pMPk-5-uhygVx5lnP4ZU\r\nContent-Type: application/json\r\nUser-Agent: PayPalSDK/sdk-core-ruby 0.2.7 (paypal-sdk-core 0.2.7; ruby 2.0.0p353-x86_64-darwin12.5.0)\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nAccept: */*\r\nHost: api.sandbox.paypal.com\r\n\r\n"
+-> "HTTP/1.1 200 OK\r\n"
+-> "Server: Apache-Coyote/1.1\r\n"
+-> "PROXY_SERVER_INFO: host=slcsbjava1.slc.paypal.com;threadId=175\r\n"
+-> "Paypal-Debug-Id: eeb15883768d4\r\n"
+-> "Content-Language: *\r\n"
+-> "Date: Mon, 30 Dec 2013 10:33:36 GMT\r\n"
+-> "Content-Type: application/json\r\n"
+-> "Transfer-Encoding: chunked\r\n"
+-> "\r\n"
+-> "2000\r\n"
+reading 8192 bytes...
+-> "{\"payments\":[{\"id\":\"PAY-5X9170549A274713NKLAUX4I\",\"create_time\":\"2013-12-30T10:33:21Z\",\"update_time\":\"2013-12-30T10:33:30Z\",\"state\":\"approved\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"credit_card\",\"funding_instruments\":[{\"credit_card\":{\"type\":\"visa\",\"number\":\"xxxxxxxxxxxx0331\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\"}}]},\"transactions\":[{\"amount\":{\"total\":\"7.47\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"7.47\"}},\"related_resources\":[{\"sale\":{\"id\":\"36V15352Y6561663N\",\"create_time\":\"2013-12-30T10:33:21Z\",\"update_time\":\"2013-12-30T10:33:30Z\",\"state\":\"completed\",\"amount\":{\"total\":\"7.47\",\"currency\":\"USD\"},\"parent_payment\":\"PAY-5X9170549A274713NKLAUX4I\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/36V15352Y6561663N\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/36V15352Y6561663N/refund\",\"rel\":\"refund\",\"method\":\"POST\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-5X9170549A274713NKLAUX4I\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-5X9170549A274713NKLAUX4I\",\"rel\":\"self\",\"method\":\"GET\"}]},{\"id\":\"PAY-82Y33697456641121KLAUWCI\",\"create_time\":\"2013-12-30T10:29:29Z\",\"update_time\":\"2013-12-30T10:29:37Z\",\"state\":\"approved\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"credit_card\",\"funding_instruments\":[{\"credit_card\":{\"type\":\"visa\",\"number\":\"xxxxxxxxxxxx0331\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\"}}]},\"transactions\":[{\"amount\":{\"total\":\"7.47\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"7.47\"}},\"related_resources\":[{\"sale\":{\"id\":\"4YN645464D8147232\",\"create_time\":\"2013-12-30T10:29:29Z\",\"update_time\":\"2013-12-30T10:29:37Z\",\"state\":\"completed\",\"amount\":{\"total\":\"7.47\",\"currency\":\"USD\"},\"parent_payment\":\"PAY-82Y33697456641121KLAUWCI\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/4YN645464D8147232\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/4YN645464D8147232/refund\",\"rel\":\"refund\",\"method\":\"POST\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-82Y33697456641121KLAUWCI\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-82Y33697456641121KLAUWCI\",\"rel\":\"self\",\"method\":\"GET\"}]},{\"id\":\"PAY-3RW99138WA726061MKLAUUJQ\",\"create_time\":\"2013-12-30T10:25:42Z\",\"update_time\":\"2013-12-30T10:25:51Z\",\"state\":\"approved\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"credit_card\",\"funding_instruments\":[{\"credit_card_token\":{\"credit_card_id\":\"CARD-5MY32504F4899612AKIHAQHY\",\"last4\":\"0331\",\"type\":\"visa\",\"expire_month\":\"11\",\"expire_year\":\"2018\"}}]},\"transactions\":[{\"amount\":{\"total\":\"7.00\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"5.00\",\"tax\":\"1.00\",\"shipping\":\"1.00\"}},\"description\":\"This is the payment transaction description.\",\"item_list\":{\"items\":[{\"name\":\"Item Name\",\"sku\":\"sku\",\"price\":\"1.00\",\"currency\":\"USD\",\"quantity\":\"5\"}]},\"related_resources\":[{\"sale\":{\"id\":\"16829121WB491983J\",\"create_time\":\"2013-12-30T10:25:42Z\",\"update_time\":\"2013-12-30T10:25:51Z\",\"state\":\"completed\",\"amount\":{\"total\":\"7.00\",\"currency\":\"USD\"},\"parent_payment\":\"PAY-3RW99138WA726061MKLAUUJQ\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/16829121WB491983J\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/16829121WB491983J/refund\",\"rel\":\"refund\",\"method\":\"POST\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-3RW99138WA726061MKLAUUJQ\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-3RW99138WA726061MKLAUUJQ\",\"rel\":\"self\",\"method\":\"GET\"}]},{\"id\":\"PAY-662396545G397901LKLAUT5Y\",\"create_time\":\"2013-12-30T10:24:55Z\",\"update_time\":\"2013-12-30T10:25:38Z\",\"state\":\"approved\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"paypal\",\"payer_info\":{\"email\":\"anpm.8917@gmail.com\",\"first_name\":\"amanda\",\"last_name\":\"phan\",\"payer_id\":\"5WMH5RVVRYSLS\",\"shipping_address\":{}}},\"transactions\":[{\"amount\":{\"total\":\"10.00\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"10.00\"}},\"description\":\"Upgrade Vip\",\"related_resources\":[{\"sale\":{\"id\":\"11W60593NE206751E\",\"create_time\":\"2013-12-30T10:24:55Z\",\"update_time\":\"2013-12-30T10:25:38Z\",\"state\":\"completed\",\"amount\":{\"total\":\"10.00\",\"currency\":\"USD\"},\"parent_payment\":\"PAY-662396545G397901LKLAUT5Y\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/11W60593NE206751E\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/11W60593NE206751E/refund\",\"rel\":\"refund\",\"method\":\"POST\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-662396545G397901LKLAUT5Y\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-662396545G397901LKLAUT5Y\",\"rel\":\"self\",\"method\":\"GET\"}]},{\"id\":\"PAY-1014168854051690GKLAUT4A\",\"create_time\":\"2013-12-30T10:24:48Z\",\"update_time\":\"2013-12-30T10:24:48Z\",\"state\":\"created\",\"intent\":\"authorize\",\"payer\":{\"payment_method\":\"paypal\",\"payer_info\":{\"shipping_address\":{}}},\"transactions\":[{\"amount\":{\"total\":\"122.00\",\"currency\":\"SEK\",\"details\":{\"subtotal\":\"80.00\",\"tax\":\"30.00\",\"shipping\":\"12.00\"}},\"item_list\":{\"items\":[{\"name\":\"Article 01\",\"price\":\"40.00\",\"currency\":\"SEK\",\"quantity\":\"1\"},{\"name\":\"Article 02\",\"price\":\"20.00\",\"currency\":\"SEK\",\"quantity\":\"2\"}]},\"related_resources\":[{\"authorization\":{\"create_time\":\"2013-12-30T10:24:48Z\",\"update_time\":\"2013-12-30T10:24:48Z\",\"parent_payment\":\"PAY-1014168854051690GKLAUT4A\",\"valid_until\":\"2014-01-28T10:24:48Z\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-1014168854051690GKLAUT4A\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-1014168854051690GKLAUT4A\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-6TS47711SB4043631\",\"rel\":\"approval_url\",\"method\":\"REDIRECT\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-1014168854051690GKLAUT4A/execute\",\"rel\":\"execute\",\"method\":\"POST\"}]},{\"id\":\"PAY-01S17951BA299180XKLAUPHY\",\"create_time\":\"2013-12-30T10:14:55Z\",\"update_time\":\"2013-12-30T10:14:55Z\",\"state\":\"created\",\"intent\":\"authorize\",\"payer\":{\"payment_method\":\"paypal\",\"payer_info\":{\"shipping_address\":{}}},\"transactions\":[{\"amount\":{\"total\":\"122.00\",\"currency\":\"SEK\",\"details\":{\"subtotal\":\"80.00\",\"tax\":\"30.00\",\"shipping\":\"12.00\"}},\"item_list\":{\"items\":[{\"name\":\"Article 01\",\"price\":\"40.00\",\"currency\":\"SEK\",\"quantity\":\"1\"},{\"name\":\"Article 02\",\"price\":\"20.00\",\"currency\":\"SEK\",\"quantity\":\"2\"}]},\"related_resources\":[{\"authorization\":{\"create_time\":\"2013-12-30T10:14:55Z\",\"update_time\":\"2013-12-30T10:14:55Z\",\"parent_payment\":\"PAY-01S17951BA299180XKLAUPHY\",\"valid_until\":\"2014-01-28T10:14:55Z\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-01S17951BA299180XKLAUPHY\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-01S17951BA299180XKLAUPHY\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-4AN44515TH952972L\",\"rel\":\"approval_url\",\"method\":\"REDIRECT\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-01S17951BA299180XKLAUPHY/execute\",\"rel\":\"execute\",\"method\":\"POST\"}]},{\"id\":\"PAY-2DL31960M4754554WKLAUN6Y\",\"create_time\":\"2013-12-30T10:12:11Z\",\"update_time\":\"2013-12-30T10:12:11Z\",\"state\":\"created\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"paypal\",\"payer_info\":{\"shipping_address\":{}}},\"transactions\":[{\"amount\":{\"total\":\"15.00\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"15.00\"}},\"description\":\"Pizza 1\"}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-2DL31960M4754554WKLAUN6Y\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-63D04710W4505433P\",\"rel\":\"approval_url\",\"method\":\"REDIRECT\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-2DL31960M4754554WKLAUN6Y/execute\",\"rel\":\"execute\",\"method\":\"POST\"}]},{\"id\":\"PA"
+read 8192 bytes
+reading 2 bytes...
+-> "\r\n"
+read 2 bytes
+-> "e16\r\n"
+reading 3606 bytes...
+-> "Y-9J690932G9758003MKLAUJ2Q\",\"create_time\":\"2013-12-30T10:03:22Z\",\"update_time\":\"2013-12-30T10:04:18Z\",\"state\":\"approved\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"paypal\",\"payer_info\":{\"email\":\"anpm.8917@gmail.com\",\"first_name\":\"amanda\",\"last_name\":\"phan\",\"payer_id\":\"5WMH5RVVRYSLS\",\"shipping_address\":{}}},\"transactions\":[{\"amount\":{\"total\":\"10.00\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"10.00\"}},\"description\":\"Upgrade Vip\",\"related_resources\":[{\"sale\":{\"id\":\"2TB60228M8854004H\",\"create_time\":\"2013-12-30T10:03:22Z\",\"update_time\":\""
+-> "2013-12-30T10:04:18Z\",\"state\":\"completed\",\"amount\":{\"total\":\"10.00\",\"currency\":\"USD\"},\"parent_payment\":\"PAY-9J690932G9758003MKLAUJ2Q\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/2TB60228M8854004H\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/2TB60228M8854004H/refund\",\"rel\":\"refund\",\"method\":\"POST\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-9J690932G9758003MKLAUJ2Q\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-9J690932G9758003MKLAUJ2Q\",\"rel\":\"self\",\"method\":\"GET\"}]},{\"id\":\"PAY-7FS27953C2820102CKLAUJSQ\",\"create_time\":\"2013-12-30T10:02:50Z\",\"update_time\":\"2013-12-30T10:02:50Z\",\"state\":\"created\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"paypal\",\"payer_info\":{\"shipping_address\":{}}},\"transactions\":[{\"amount\":{\"total\":\"100.00\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"75.00\",\"tax\":\"15.00\",\"shipping\":\"10.00\"}},\"description\":\"Transaction description.\",\"item_list\":{\"items\":[{\"name\":\"Item Name\",\"sku\":\"sku\",\"price\":\"15.00\",\"currency\":\"USD\",\"quantity\":\"5\"}]}}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-7FS27953C2820102CKLAUJSQ\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-7K57433172904382J\",\"rel\":\"approval_url\",\"method\":\"REDIRECT\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-7FS27953C2820102CKLAUJSQ/execute\",\"rel\":\"execute\",\"method\":\"POST\"}]},{\"id\":\"PAY-8WB5748473583562HKLAUJJI\",\"create_time\":\"2013-12-30T10:02:13Z\",\"update_time\":\"2013-12-30T10:02:23Z\",\"state\":\"approved\",\"intent\":\"sale\",\"payer\":{\"payment_method\":\"credit_card\",\"funding_instruments\":[{\"credit_card\":{\"type\":\"visa\",\"number\":\"xxxxxxxxxxxx0331\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\",\"billing_address\":{\"line1\":\"52 N Main ST\",\"city\":\"Johnstown\",\"state\":\"OH\",\"postal_code\":\"43210\",\"country_code\":\"US\"}}}]},\"transactions\":[{\"amount\":{\"total\":\"7.00\",\"currency\":\"USD\",\"details\":{\"subtotal\":\"5.00\",\"tax\":\"1.00\",\"shipping\":\"1.00\"}},\"description\":\"This is the payment transaction description.\",\"item_list\":{\"items\":[{\"name\":\"Item Name\",\"sku\":\"sku\",\"price\":\"1.00\",\"currency\":\"USD\",\"quantity\":\"5\"}]},\"related_resources\":[{\"sale\":{\"id\":\"1SD71929MU7162426\",\"create_time\":\"2013-12-30T10:02:13Z\",\"update_time\":\"2013-12-30T10:02:23Z\",\"state\":\"completed\",\"amount\":{\"total\":\"7.00\",\"currency\":\"USD\"},\"parent_payment\":\"PAY-8WB5748473583562HKLAUJJI\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/1SD71929MU7162426\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/sale/1SD71929MU7162426/refund\",\"rel\":\"refund\",\"method\":\"POST\"},{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-8WB5748473583562HKLAUJJI\",\"rel\":\"parent_payment\",\"method\":\"GET\"}]}}]}],\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/payments/payment/PAY-8WB5748473583562HKLAUJJI\",\"rel\":\"self\",\"method\":\"GET\"}]}],\"count\":10,\"next_id\":\"PAY-5SF09035AA278824XKLAUINA\"}"
+read 3606 bytes
+reading 2 bytes...
+-> "\r\n"
+read 2 bytes
+-> "0\r\n"
+-> "\r\n"
+Conn keep-alive
+opening connection to api.sandbox.paypal.com:443...
+opened
+starting SSL for api.sandbox.paypal.com:443...
+SSL established
+<- "POST /v1/vault/credit-card HTTP/1.1\r\nX-Paypal-Sandbox-Email-Address: Platform.sdk.seller@gmail.com\r\nAuthorization: Bearer VknrLyV-t.VSOq-kWU8drom2FntYqcUYLVCS2hKmz7E\r\nContent-Type: application/json\r\nUser-Agent: PayPalSDK/sdk-core-ruby 0.2.7 (paypal-sdk-core 0.2.7; ruby 2.0.0p353-x86_64-darwin12.5.0)\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nAccept: */*\r\nHost: api.sandbox.paypal.com\r\nContent-Length: 138\r\n\r\n"
+<- "{\"type\":\"visa\",\"number\":\"4111111111111111\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"cvv2\":\"874\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\"}"
+-> "HTTP/1.1 201 Created\r\n"
+-> "Server: Apache-Coyote/1.1\r\n"
+-> "PROXY_SERVER_INFO: host=slcsbjava1.slc.paypal.com;threadId=179\r\n"
+-> "Paypal-Debug-Id: 3f08aaef756d4\r\n"
+-> "Content-Language: *\r\n"
+-> "CORRELATION-ID: 3f08aaef756d4\r\n"
+-> "Date: Mon, 30 Dec 2013 10:33:40 GMT\r\n"
+-> "SERVER_INFO: vaultplatformserv:v1.vault.credit-card&CalThreadId=2069&TopLevelTxnStartTime=1434310f15a&Host=slcsbvaultplatformserv502.slc.paypal.com&pid=1239\r\n"
+-> "Content-Type: application/json\r\n"
+-> "Content-Length: 667\r\n"
+-> "\r\n"
+reading 667 bytes...
+-> "{\"id\":\"CARD-7BK84485RL522182DKLAUYBA\",\"state\":\"ok\",\"type\":\"visa\",\"number\":\"xxxxxxxxxxxx1111\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\",\"valid_until\":\"2016-12-29T00:00:00Z\",\"create_time\":\"2013-12-30T10:33:40Z\",\"update_time\":\"2013-12-30T10:33:40Z\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-7BK84485RL522182DKLAUYBA\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-7BK84485RL522182DKLAUYBA\",\"rel\":\"delete\",\"method\":\"DELETE\"},{\"href\":\"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-7BK84485RL522182DKLAUYBA\",\"rel\":\"patch\",\"method\":\"PATCH\"}]}"
+read 667 bytes
+Conn keep-alive
+opening connection to api.sandbox.paypal.com:443...
+opened
+starting SSL for api.sandbox.paypal.com:443...
+SSL established
+<- "GET /v1/vault/credit-card/CARD-7BK84485RL522182DKLAUYBA HTTP/1.1\r\nX-Paypal-Sandbox-Email-Address: Platform.sdk.seller@gmail.com\r\nAuthorization: Bearer VknrLyV-t.VSOq-kWU8drom2FntYqcUYLVCS2hKmz7E\r\nContent-Type: application/json\r\nUser-Agent: PayPalSDK/sdk-core-ruby 0.2.7 (paypal-sdk-core 0.2.7; ruby 2.0.0p353-x86_64-darwin12.5.0)\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nAccept: */*\r\nHost: api.sandbox.paypal.com\r\n\r\n"
+-> "HTTP/1.1 200 OK\r\n"
+-> "Server: Apache-Coyote/1.1\r\n"
+-> "PROXY_SERVER_INFO: host=slcsbjava4.slc.paypal.com;threadId=85530\r\n"
+-> "Paypal-Debug-Id: 3c87cf2d76976\r\n"
+-> "Content-Language: *\r\n"
+-> "CORRELATION-ID: 3c87cf2d76976\r\n"
+-> "Date: Mon, 30 Dec 2013 10:33:41 GMT\r\n"
+-> "SERVER_INFO: vaultplatformserv:v1.vault.credit-card&CalThreadId=88&TopLevelTxnStartTime=1434310f6de&Host=slcsbvaultplatformserv501.slc.paypal.com&pid=24172\r\n"
+-> "Content-Type: application/json\r\n"
+-> "Content-Length: 667\r\n"
+-> "\r\n"
+reading 667 bytes...
+-> "{\"id\":\"CARD-7BK84485RL522182DKLAUYBA\",\"state\":\"ok\",\"type\":\"visa\",\"number\":\"xxxxxxxxxxxx1111\",\"expire_month\":\"11\",\"expire_year\":\"2018\",\"first_name\":\"Joe\",\"last_name\":\"Shopper\",\"valid_until\":\"2016-12-29T00:00:00Z\",\"create_time\":\"2013-12-30T10:33:40Z\",\"update_time\":\"2013-12-30T10:33:40Z\",\"links\":[{\"href\":\"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-7BK84485RL522182DKLAUYBA\",\"rel\":\"self\",\"method\":\"GET\"},{\"href\":\"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-7BK84485RL522182DKLAUYBA\",\"rel\":\"delete\",\"method\":\"DELETE\"},{\"href\":\"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-7BK84485RL522182DKLAUYBA\",\"rel\":\"patch\",\"method\":\"PATCH\"}]}"
+read 667 bytes
+Conn keep-alive
+opening connection to api.sandbox.paypal.com:443...
+opened
+starting SSL for api.sandbox.paypal.com:443...
+SSL established
+<- "GET /v1/payments/payment/PAY-1234 HTTP/1.1\r\nX-Paypal-Sandbox-Email-Address: Platform.sdk.seller@gmail.com\r\nAuthorization: Bearer 07Fwa17vwysEHia1qM5Jeb-pMPk-5-uhygVx5lnP4ZU\r\nContent-Type: application/json\r\nUser-Agent: PayPalSDK/sdk-core-ruby 0.2.7 (paypal-sdk-core 0.2.7; ruby 2.0.0p353-x86_64-darwin12.5.0)\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nAccept: */*\r\nHost: api.sandbox.paypal.com\r\n\r\n"
+-> "HTTP/1.1 404 Not Found\r\n"
+-> "Server: Apache-Coyote/1.1\r\n"
+-> "PROXY_SERVER_INFO: host=slcsbjava1.slc.paypal.com;threadId=2061\r\n"
+-> "Paypal-Debug-Id: f59c797e75af2\r\n"
+-> "Content-Language: *\r\n"
+-> "Date: Mon, 30 Dec 2013 10:33:42 GMT\r\n"
+-> "Content-Type: application/json\r\n"
+-> "Content-Length: 207\r\n"
+-> "\r\n"
+reading 207 bytes...
+-> "{\"name\":\"INVALID_RESOURCE_ID\",\"message\":\"The requested resource ID was not found\",\"information_link\":\"https://developer.paypal.com/webapps/developer/docs/api/#INVALID_RESOURCE_ID\",\"debug_id\":\"f59c797e75af2\"}"
+read 207 bytes
+Conn keep-alive
+opening connection to api.sandbox.paypal.com:443...
+opened
+starting SSL for api.sandbox.paypal.com:443...
+SSL established
+<- "POST /v1/payments/payment HTTP/1.1\r\nX-Paypal-Sandbox-Email-Address: Platform.sdk.seller@gmail.com\r\nAuthorization: Bearer 07Fwa17vwysEHia1qM5Jeb-pMPk-5-uhygVx5lnP4ZU\r\nContent-Type: application/json\r\nUser-Agent: PayPalSDK/sdk-core-ruby 0.2.7 (paypal-sdk-core 0.2.7; ruby 2.0.0p353-x86_64-darwin12.5.0)\r\nAccept-Encoding: gzip;q=1.0,deflate;q=0.6,identity;q=0.3\r\nAccept: */*\r\nHost: api.sandbox.paypal.com\r\nContent-Length: 2\r\n\r\n"
+<- "{}"
+-> "HTTP/1.1 400 Bad Request\r\n"
+-> "Server: Apache-Coyote/1.1\r\n"
+-> "PROXY_SERVER_INFO: host=slcsbjava3.slc.paypal.com;threadId=188\r\n"
+-> "Paypal-Debug-Id: 5931d9002a991\r\n"
+-> "Content-Language: *\r\n"
+-> "Date: Mon, 30 Dec 2013 10:33:44 GMT\r\n"
+-> "Connection: close\r\n"
+-> "Content-Type: application/json\r\n"
+-> "Content-Length: 306\r\n"
+-> "Connection: close\r\n"
+-> "\r\n"
+reading 306 bytes...
+-> "{\"name\":\"VALIDATION_ERROR\",\"details\":[{\"field\":\"payer\",\"issue\":\"Required field missing\"},{\"field\":\"intent\",\"issue\":\"Required field missing\"}],\"message\":\"Invalid request - see details\",\"information_link\":\"https://developer.paypal.com/webapps/developer/docs/api/#VALIDATION_ERROR\",\"debug_id\":\"5931d9002a991\"}"
+read 306 bytes
+Conn close

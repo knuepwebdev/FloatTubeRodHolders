@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140128002532) do
+ActiveRecord::Schema.define(version: 20140131041443) do
 
   create_table "inquiries", force: true do |t|
     t.string "first_name"
@@ -149,20 +149,6 @@ ActiveRecord::Schema.define(version: 20140128002532) do
     t.datetime "updated_at"
   end
 
-  create_table "spree_inquiries", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "inquiry_type"
-    t.string   "order_no"
-    t.text     "message"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "phone_number"
-    t.string   "http_user_agent"
-    t.string   "http_remote_addr"
-    t.string   "client_viewport_size"
-  end
-
   create_table "spree_inventory_units", force: true do |t|
     t.string   "state"
     t.integer  "variant_id"
@@ -289,6 +275,19 @@ ActiveRecord::Schema.define(version: 20140128002532) do
   end
 
   add_index "spree_payments", ["order_id"], name: "index_spree_payments_on_order_id"
+
+  create_table "spree_paypal_express_checkouts", force: true do |t|
+    t.string   "token"
+    t.string   "payer_id"
+    t.string   "transaction_id"
+    t.string   "state",                 default: "complete"
+    t.string   "refund_transaction_id"
+    t.datetime "refunded_at"
+    t.string   "refund_type"
+    t.datetime "created_at"
+  end
+
+  add_index "spree_paypal_express_checkouts", ["transaction_id"], name: "index_spree_paypal_express_checkouts_on_transaction_id"
 
   create_table "spree_preferences", force: true do |t|
     t.text     "value"
