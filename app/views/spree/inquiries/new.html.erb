@@ -1,0 +1,26 @@
+<h1>Contact Us</h1>
+<%= form_for @inquiry, url: main_app.inquiries_path do |form| %>
+	<div>
+		<%= form.label :first_name, class: 'inquiry_label' %>
+		<%= form.text_field :first_name, class: 'inquiry_field' %>
+	</div>
+	<div>
+		<%= form.label :last_name, class: 'inquiry_label' %>
+		<%= form.text_field :last_name, class: 'inquiry_field' %>
+	</div>
+	<div>
+		<%= form.label :email, class: 'inquiry_label' %>
+		<%= form.text_field :email, class: 'inquiry_field' %>
+	</div>
+	<div>
+		<%= form.label :phone, class: 'inquiry_label' %>
+		<%= form.text_field :phone, class: 'inquiry_field' %>
+	</div>
+	<div>
+		<%= form.label :comments, class: 'inquiry_label' %>
+		<%= text_area :comments, :text, cols: 48, rows: 12, class: 'inquiry_field' %>
+	</div>
+	<div>
+		<%= form.submit 'Submit' %>
+	</div>
+<% end %>
