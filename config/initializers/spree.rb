@@ -16,9 +16,10 @@ Spree.config do |config|
   config.smtp_username = ENV["GMAIL_USERNAME"]
   config.smtp_password = ENV["GMAIL_PASSWORD"]
   config.use_s3 = true
-  config.s3_bucket = ENV['AWS_BUCKET_NAME']
+  config.s3_bucket = ENV["AWS_BUCKET_NAME"]
   config.s3_access_key = ENV["AWS_ACCESS_KEY_ID"]
   config.s3_secret = ENV["AWS_SECRET_ACCESS_KEY"]
+  config.allow_ssl_in_production = false
 end
 
 Spree.user_class = "Spree::User"
