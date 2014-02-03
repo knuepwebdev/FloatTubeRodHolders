@@ -20,10 +20,7 @@ Spree.config do |config|
   config.s3_access_key = ENV["AWS_ACCESS_KEY_ID"]
   config.s3_secret = ENV["AWS_SECRET_ACCESS_KEY"]
   config.allow_ssl_in_production = false
+  config.attachment_url = ":s3_domain_url"
 end
 
 Spree.user_class = "Spree::User"
-
-Paperclip.interpolates(:s3_eu_url) do |attachment, style|
-"#{attachment.s3_protocol}://#{Spree::Config[:s3_host_alias]}/#{attachment.bucket_name}/#{attachment.path(style).gsub(%r{^/},"")}"
-end
