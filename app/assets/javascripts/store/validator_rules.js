@@ -1,8 +1,9 @@
 $.validator.addClassRules({
-	name: { 
+	name_field: { 
       required: true,
       minlength: 2,
-      maxlength: 20
+      maxlength: 20,
+      validateNameField: true
 	},
 	street1: {
 		required: true,
@@ -23,5 +24,13 @@ $.validator.addClassRules({
 	phone: {
 		required: true,
 		validatePhone: true
+	},
+	email_field: {
+		required: true,
+		validateEmail: true
+	},
+	comments: {
+		required: true,
+		maxlength: 1000
 	}
 });
