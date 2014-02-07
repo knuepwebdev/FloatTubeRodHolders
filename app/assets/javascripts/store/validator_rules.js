@@ -31,8 +31,11 @@ $.validator.addClassRules({
 	},
 	password_field: {
 		required: true,
-		minlength: 6,
-		maxlength: 20
+		validatePasswordField: true
+	},
+	password_confirmation_field: {
+		required: true,
+		validatePasswordConfirmationField: true
 	},
 	comments: {
 		required: true,

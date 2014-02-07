@@ -17,3 +17,16 @@ $.validator.addMethod("validateCity", function(value, element) {
 $.validator.addMethod("validateEmail", function(value, element) {
   return this.optional(element) || /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+)*$/.test(value);
 }, "Please enter a valid email address");
+
+$.validator.addMethod("validatePasswordField", function(value, element) {
+	return (this.optional(element) ||
+				 (value.length >= 6 && value.length <= 20)); 
+}, "Password must be at least 6 characters in length");
+
+$.validator.addMethod("validatePasswordConfirmationField", 
+											function( value, element) {
+	console.log('password: ' + $('#spree_user_password').val() + ' value: ' + value + ' equal? ' + (value == $('#spree_user_password').val()));
+
+	return (this.optional(element) || 
+					value === $('#spree_user_password').val());
+}, "Re-enter password to confirm");
