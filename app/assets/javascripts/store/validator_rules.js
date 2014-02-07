@@ -29,6 +29,11 @@ $.validator.addClassRules({
 		required: true,
 		validateEmail: true
 	},
+	password_field: {
+		required: true,
+		minlength: 6,
+		maxlength: 20
+	},
 	comments: {
 		required: true,
 		maxlength: 3000
