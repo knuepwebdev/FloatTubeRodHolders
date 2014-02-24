@@ -27,8 +27,16 @@ p, label {
 }
 
 /*CONTACT FORM*/
-.inquiry, .inquiry_label {
+.inquiry {
+	margin: 10px;
+}
+
+.inquiry_label {
+	display: inline-block;
+	width: 8%;
 	margin: 10px 0;
+	padding-right: 10px;
+	text-align: right;
 }
 
 /*FOOTER*/
@@ -67,5 +75,25 @@ p, label {
 
 	nav #main-nav-bar li#link-to-cart {
 		float: none;
+	}
+
+	.inquiry_label {
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 5px;
+	}
+
+	.inquiry {
+		display: inline-block;
+		text-align: left;
+	}
+
+	#inquiry_comments {
+		width: 211px;
+	}
+
+	#content {
+		text-align: left;
 	}
 }
