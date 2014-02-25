@@ -19,7 +19,7 @@ Spree.config do |config|
   config.s3_bucket = ENV["AWS_BUCKET_NAME"]
   config.s3_access_key = ENV["AWS_ACCESS_KEY_ID"]
   config.s3_secret = ENV["AWS_SECRET_ACCESS_KEY"]
-  config.allow_ssl_in_production = false
+  config.allow_ssl_in_production = true
   config.attachment_url = ":s3_us_west_url"
   config.s3_host_alias = "s3.amazonaws.com"
 end
