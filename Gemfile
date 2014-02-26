@@ -13,6 +13,7 @@ gem 'spree', github: 'spree/spree', branch: '2-1-stable'
 gem 'spree_paypal_express', :github => "radar/better_spree_paypal_express", :branch => "2-1-stable"
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-1-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-1-stable'
+gem 'newrelic_rpm'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
