@@ -6,6 +6,11 @@ p, label {
 	font-family: Arial;
 }
 
+/*HEADER*/
+#logo h1 {
+	color: #00adee;
+}
+
 /*HOME PAGE*/
 #fishing-image {
 	width: 50%;
