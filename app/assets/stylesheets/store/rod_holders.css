@@ -6,6 +6,11 @@ p, label {
 	font-family: Arial;
 }
 
+p {
+	margin: 10px 0;
+	padding: 0;
+}
+
 /*HEADER*/
 #logo h1 {
 	color: #00adee;
@@ -27,18 +32,9 @@ p, label {
 	float: left;
 }
 
-#company-description p {
-	margin: 0;
-}
-
 /*CONTACT FORM*/
 #contact-message {
 	margin: 10px 0 0 0;
-}
-
-.contact-method {
-	margin: 10px 0;
-	padding: 0;
 }
 
 .contact_type {
@@ -61,6 +57,11 @@ p, label {
 	margin: 10px 0;
 	padding-right: 10px;
 	text-align: right;
+}
+
+/*FAQ page*/
+.bold {
+	font-weight: bold;
 }
 
 /*FOOTER*/
