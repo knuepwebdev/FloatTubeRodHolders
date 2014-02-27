@@ -32,6 +32,25 @@ p, label {
 }
 
 /*CONTACT FORM*/
+#contact-message {
+	margin: 10px 0 0 0;
+}
+
+.contact-method {
+	margin: 10px 0;
+	padding: 0;
+}
+
+.contact_type {
+	color: #000;
+	font-weight: bold;
+	padding-right: 3px;
+}
+
+#new_inquiry {
+	margin: 20px 0 0 0;
+}
+
 .inquiry {
 	margin: 10px;
 }
