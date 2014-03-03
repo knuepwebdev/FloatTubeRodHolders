@@ -11,9 +11,30 @@ p {
 	padding: 0;
 }
 
+a {
+	color: #00008B;
+}
+
 /*HEADER*/
-#logo h1 {
-	color: #00adee;
+header a {
+	color: #00008B;
+}
+
+header a:hover {
+	color: #00008B;
+}
+
+.amount:hover {
+	color: #00008B;
+}
+
+header nav #main-nav-bar li#link-to-cart {
+	background-image: none;
+	padding-left: 0;
+}
+
+header nav #main-nav-bar li#link-to-cart a {
+	color: #00008B;
 }
 
 /*HOME PAGE*/
@@ -32,9 +53,45 @@ p {
 	float: left;
 }
 
+/*PRODUCTS PAGE*/
+ul#products li .price {
+	color: #00008B;
+}
+
+/*CART*/
+.cart-item-description a {
+	color: #00008B;
+}
+
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_price"],
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_total"] {
+	color: #00008B;
+}
+
+div[data-hook="inside_cart_form"] #subtotal span.order-total {
+	color: #00008B;
+}
+
+button, .button, .button.continue {
+	background-color: #00008B;
+	color: #FFF;
+}
+
+button:hover {
+	background-color: #00008B;
+}
+
+::selection {
+	background-color: none;
+}
+
 /*CONTACT FORM*/
 #contact-message {
 	margin: 10px 0 0 0;
+}
+
+.blue {
+	color: #00008B;
 }
 
 .contact_type {
@@ -57,6 +114,14 @@ p {
 	margin: 10px 0;
 	padding-right: 10px;
 	text-align: right;
+}
+
+input[type="submit"] {
+	background-color: #00008B;
+}
+
+input[type="submit"]:hover {
+	background-color: #00008B;
 }
 
 /*FAQ page*/
@@ -91,7 +156,7 @@ p {
 @media only screen and (max-width: 479px) {
 	#main-nav-bar li {
 		display: block;
-		margin-left: 128px;
+		margin: 3px 0 0 128px;
 	}
 
 	#home-link{

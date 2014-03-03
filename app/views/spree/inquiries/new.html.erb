@@ -5,7 +5,8 @@
 </p>
 <p>
 	<%= mail_to "info@floattuberodholders.com" do %>
-		<span class='contact_type'>Email:</span>info@floattuberodholders.com
+		<span class='contact_type'>Email:</span>
+		<span class='blue'>info@floattuberodholders.com</span>
 	<% end %>
 </p>
 <%= form_for @inquiry, url: main_app.inquiries_path do |form| %>

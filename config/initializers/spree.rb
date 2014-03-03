@@ -7,7 +7,7 @@
 # config.setting_name = 'new value'
 Spree.config do |config|
   config.override_actionmailer_config = true
-  config.mails_from = "test@fishingusa.com"
+  config.mails_from = "info@floattuberodholders.com"
   config.mail_domain = "example.com"
   config.mail_host = "smtp.gmail.com"
   config.mail_port = 587
