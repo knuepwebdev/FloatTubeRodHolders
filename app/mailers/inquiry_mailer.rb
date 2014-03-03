@@ -1,8 +1,8 @@
 class InquiryMailer < ActionMailer::Base
-	default from: "inquiry@fishingusa.com"
+	default from: "customercomments@floattuberodholders.com"
 
 	def customer_inquiry(inquiry)
 		@inquiry = inquiry
-		mail to: "nupexpress@aol.com", subject: "FishingUSA Customer Comments"
+		mail to: "info@floattuberodholders.com", subject: "FloatTubeRodHolders.com Customer Comments"
 	end
 end
