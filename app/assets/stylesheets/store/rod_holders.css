@@ -151,6 +151,11 @@ input[type="submit"]:hover {
 	#fishing-image img {
 		margin: 0;
 	}
+
+/*PRODUCTS PAGE*/
+	ul#products li a.info {
+		height: 55px;
+	}
 }
 
 @media only screen and (max-width: 479px) {
@@ -167,6 +172,7 @@ input[type="submit"]:hover {
 		float: none;
 	}
 
+/*CONTACT PAGE*/
 	.inquiry_label {
 		display: block;
 		text-align: left;
