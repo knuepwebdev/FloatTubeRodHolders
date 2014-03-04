@@ -1,3 +1,7 @@
+$link_text_color: #00008B;
+$c_green:       #8dba53 !default;
+$c_red:         #e45353 !default;  /* Error red      */
+
 body {
 	font-size: 14px;
 }
@@ -12,40 +16,53 @@ p {
 }
 
 a {
-	color: #00008B;
+	color: $link_text_color;
+}
+
+.blue-background {
+	background-color: $link_text_color;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*FLASH NOTICES*/
+.flash.notice {
+	background-color: $link_text_color;
 }
 
 /*HEADER*/
 header a {
-	color: #00008B;
+	color: $link_text_color;
 }
 
 header a:hover {
-	color: #00008B;
+	color: $link_text_color;
 }
 
 .amount:hover {
-	color: #00008B;
+	color: $link_text_color;
 }
 
 header nav #main-nav-bar li#link-to-cart {
 	background-image: none;
 	padding-left: 0;
-}
 
-header nav #main-nav-bar li#link-to-cart a {
-	color: #00008B;
+	a {
+		color: $link_text_color;
+	}
 }
 
 /*HOME PAGE*/
 #fishing-image {
 	width: 50%;
 	float: left;
-}
 
-#fishing-image img {
-	margin-left: 70px;
-	padding: 10px 0;
+	img {
+		margin-left: 70px;
+		padding: 10px 0;
+	}
 }
 
 #company-description {
@@ -55,34 +72,96 @@ header nav #main-nav-bar li#link-to-cart a {
 
 /*PRODUCTS PAGE*/
 ul#products li .price {
-	color: #00008B;
+	color: $link_text_color;
+}
+
+/*PRODUCT DETAIL PAGE*/
+span.price {
+	color: $link_text_color;
 }
 
 /*CART*/
 .cart-item-description a {
-	color: #00008B;
+	color: $link_text_color;
 }
 
 table#cart-detail tbody#line_items tr td[data-hook="cart_item_price"],
 table#cart-detail tbody#line_items tr td[data-hook="cart_item_total"] {
-	color: #00008B;
+	color: $link_text_color;
 }
 
 div[data-hook="inside_cart_form"] #subtotal span.order-total {
-	color: #00008B;
+	color: $link_text_color;
 }
 
 button, .button, .button.continue {
-	background-color: #00008B;
+	background-color: $link_text_color;
 	color: #FFF;
 }
 
+a.button {
+	background-color: $link_text_color;	
+}
+
 button:hover {
-	background-color: #00008B;
+	background-color: $link_text_color;
 }
 
 ::selection {
 	background-color: none;
+}
+
+/*DELIVERY FORM*/
+.progress-steps li.current-first, .progress-steps li.current {
+	background-color: $link_text_color;
+}
+
+#billing legend, #shipping legend, #payment legend {
+	color: $link_text_color;
+}
+
+#checkout-summary table tr[data-hook="item_total"] td:last-child strong {
+	color: $link_text_color;
+}
+
+#checkout-summary table #summary-order-total {
+	color: $link_text_color;	
+}
+
+
+#shipping_method {
+	.stock-location {
+		background-color: $link_text_color;
+	}
+
+	legend {
+		color: $link_text_color;
+	}
+
+	.shipping-methods {
+		.shipping-method {
+			label {
+				.rate-cost {
+					color: $link_text_color;
+				}
+			}
+		}
+	}
+}
+
+/*ORDER CONFIRMATION*/
+#order_summary {
+	legend {
+		color: $link_text_color;
+	}
+
+	td.price span {
+		color: $link_text_color;
+	}
+
+	td.total span {
+		color: $link_text_color;
+	}
 }
 
 /*CONTACT FORM*/
@@ -91,7 +170,7 @@ button:hover {
 }
 
 .blue {
-	color: #00008B;
+	color: $link_text_color;
 }
 
 .contact_type {
@@ -117,16 +196,11 @@ button:hover {
 }
 
 input[type="submit"] {
-	background-color: #00008B;
+	background-color: $link_text_color;
 }
 
 input[type="submit"]:hover {
-	background-color: #00008B;
-}
-
-/*FAQ page*/
-.bold {
-	font-weight: bold;
+	background-color: $link_text_color;
 }
 
 /*FOOTER*/
@@ -146,10 +220,10 @@ input[type="submit"]:hover {
 	#fishing-image {
 		width: 100%;
 		float: none;
-	}
 
-	#fishing-image img {
-		margin: 0;
+		img {
+			margin: 0;
+		}
 	}
 
 /*PRODUCTS PAGE*/
