@@ -150,7 +150,7 @@ button:hover {
 }
 
 /*ORDER CONFIRMATION*/
-#order_summary {
+#order_summary, #order_details {
 	legend {
 		color: $link_text_color;
 	}
