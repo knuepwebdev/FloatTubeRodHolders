@@ -80,6 +80,10 @@ span.price {
 	color: $link_text_color;
 }
 
+#product-variants ul, #similar_items_by_taxon ul {
+	list-style-type: none;
+}
+
 /*CART*/
 .cart-item-description a {
 	color: $link_text_color;
